@@ -1,0 +1,43 @@
+html {
+    background-color: #FFFFFF;
+    color: #515151;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'DejaVuSansBook', Arial, Sans-serif;
+    overflow-x: hidden;
+}
+h1 {
+    font-size: 200%;
+}
+a {
+    color: #00B4FF;
+}
+
+#home-wrapper {
+    padding: 200px 0 50px;
+}
+
+#home-title-wrapper {}
+#home-title {
+    background-color: #515151;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 20px;
+    text-align: right;
+}
+
+#home-nav {}
+.home-nav-item a {
+    display: block;
+    font-size: 200%;
+    padding: 20px;
+    text-decoration: none;
+}
+.home-nav-item a:hover,
+.home-nav-item a:focus {
+    background-color: #00B4FF;
+    border-right: 5px solid #515151;
+    color: #FFFFFF;
+    outline: none;
+}

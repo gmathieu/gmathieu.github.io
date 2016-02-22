@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'DejaVuSansBook';
+    src: url('/fonts/DejaVu-Sans-fontfacekit/DejaVuSans-webfont.eot');
+    src: url('/fonts/DejaVu-Sans-fontfacekit/DejaVuSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/DejaVu-Sans-fontfacekit/DejaVuSans-webfont.woff') format('woff'),
+         url('/fonts/DejaVu-Sans-fontfacekit/DejaVuSans-webfont.ttf') format('truetype'),
+         url('/fonts/DejaVu-Sans-fontfacekit/DejaVuSans-webfont.svg#DejaVuSansBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

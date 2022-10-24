@@ -1,24 +1,24 @@
 html {
     background-color: #FFFFFF;
     color: #515151;
-    overflow-x: hidden;
 }
 body {
+    display: flex;
     font-family: 'DejaVuSansBook', Arial, Sans-serif;
-    overflow-x: hidden;
+    margin: 0;
+    padding: 200px 0 50px;
 }
 h1 {
     font-size: 200%;
+    margin: 0;
 }
 a {
     color: #00B4FF;
 }
 
-#home-wrapper {
-    padding: 200px 0 50px;
+#home-title-wrapper {
+    width: 33%;
 }
-
-#home-title-wrapper {}
 #home-title {
     background-color: #515151;
     color: #FFFFFF;
@@ -27,17 +27,30 @@ a {
     text-align: right;
 }
 
-#home-nav {}
+#home-nav {
+    flex: 1;
+}
+#home-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.home-nav-item {
+    list-style-type: none;
+}
 .home-nav-item a {
     display: block;
     font-size: 200%;
     padding: 20px;
     text-decoration: none;
 }
+.home-nav-item a:before {
+    content: "\00BB";
+    padding-right: 10px;
+}
 .home-nav-item a:hover,
 .home-nav-item a:focus {
     background-color: #00B4FF;
-    border-right: 5px solid #515151;
+    border-right: 10px solid #515151;
     color: #FFFFFF;
     outline: none;
 }
